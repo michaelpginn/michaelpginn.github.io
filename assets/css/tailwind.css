@@ -946,7 +946,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .prose :where(a):not(:where([class~="not-prose"] *)) {
   color: var(--tw-prose-links);
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: 500;
 }
 
