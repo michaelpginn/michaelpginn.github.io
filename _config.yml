@@ -20,6 +20,8 @@ show-nav-menu: true
 nav-menu:
 - text: Publications
   permalink: publications
+- text: Projects
+  permalink: projects
 - text: CV
   permalink: cv
 
