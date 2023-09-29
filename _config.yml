@@ -7,7 +7,7 @@ title: "Michael Ginn"
 description: Personal website for Michael Ginn, PhD student and software developer
 
 # color theme for links
-theme-color: stone # indigo|yellow|pink|green|stone|
+theme-color: indigo # indigo|yellow|pink|green|stone|
 
 # homepage information
 author: Michael Ginn
@@ -18,10 +18,10 @@ author-image: headshot.png  # file must be in the /assets/img/ folder
 show-nav-menu: true
 
 nav-menu:
-- text: Blog
-  permalink: blog
 - text: Publications
   permalink: publications
+- text: CV
+  permalink: cv
 
 # use false to turn off any social media links
 twitter: https://twitter.com/_michaelginn
