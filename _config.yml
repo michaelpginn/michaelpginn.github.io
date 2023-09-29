@@ -20,8 +20,10 @@ show-nav-menu: true
 nav-menu:
 - text: About
   permalink: about
-- text: Bitcoin
-  permalink: bitcoin
+- text: Blog
+  permalink: blog
+- text: Publications
+  permalink: publications
 
 # use false to turn off any social media links
 twitter: https://twitter.com/_michaelginn
@@ -34,7 +36,7 @@ google-scholar: false
 email: false
 
 # footer information
-footer-msg: "Powered by Tailpages"
+footer-msg: "Michael Ginn"
 footer-msg-link: false
 
 # google analytics
