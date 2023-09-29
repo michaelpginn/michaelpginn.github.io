@@ -31,9 +31,9 @@ facebook: false
 instagram: false
 github: https://github.com/michaelpginn
 linkedin: https://linkedin.com/ginn-michael
-medium: false
-google-scholar: false
-email: false
+medium: https://medium.com/@michael-ginn
+google-scholar: https://scholar.google.com/citations?user=tgEv-2YAAAAJ
+email: michael.ginn@colorado.edu
 
 # footer information
 footer-msg: "Michael Ginn"
