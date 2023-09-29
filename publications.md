@@ -4,8 +4,6 @@ title: Publications
 permalink: publications
 ---
 
- - "The misidentification of Satoshi Nakamoto". theweek.com. 30 June 2015. Retrieved 22 July 2019.
- Kharif, Olga (23 April 2019). "John McAfee Vows to Unmask Crypto's Satoshi Nakamoto, Then Backs Off". Bloomberg.
- - "Who Is Satoshi Nakamoto, Inventor of Bitcoin? It Doesn't Matter". Fortune. Retrieved 22 July 2019.
- - Bearman, Sophie (27 October 2017). "Bitcoin's creator may be worth $6 billion — but people still don't know who it is". CNBC. Retrieved 22 July 2019.
- S., L. (2 November 2015). "Who is Satoshi Nakamoto?". The Economist explains. The Economist. Archived from the original on 21 August 2016. Retrieved 3 November 2015.
+- Michael Ginn and Alexis Palmer. 2023. Taxonomic Loss for Morphological Glossing of Low-Resource Languages. arXiv:2308.15055 [cs].
+- Michael Ginn, Sarah Moeller, Alexis Palmer, Anna Stacey, Garrett Nicolai, Mans Hulden, and Miikka Silfverberg. 2023. Findings of the SIGMORPHON 2023 Shared Task on Interlinear Glossing. In Proceedings of the 20th SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology, pages 186–201, Toronto, Canada. Association for Computational Linguistics.
+- Michael Ginn and Roman Khamov. 2023. Ginn-Khamov at SemEval-2023 Task 6, Subtask B: Legal Named Entities Extraction for Heterogenous Documents. In Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023), pages 420–425, Toronto, Canada. Association for Computational Linguistics.
