@@ -1332,8 +1332,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .prose-indigo {
-  --tw-prose-links: #4f46e5;
-  --tw-prose-invert-links: #6366f1;
+  --tw-prose-links: #376B9E;
+  --tw-prose-invert-links: #5484B9;
 }
 
 .hover\:border-transparent:hover {
