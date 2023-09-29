@@ -22,8 +22,6 @@ nav-menu:
   permalink: publications
 - text: Projects
   permalink: projects
-- text: CV
-  permalink: cv
 
 # use false to turn off any social media links
 twitter: https://twitter.com/_michaelginn
