@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-I am a Ph.D. student at the [University of Colorado](https://www.colorado.edu), supervised by [Dr. Alexis Palmer](https://alexispalmer.github.io) and [Dr. Mans Hulden](https://verbs.colorado.edu/~mahu0110/), where I study **computational linguistics** and **natural language processing**. My research involves low-resource and endangered languages, generalizability and robustness, and the relationships between linguistics and language technology. I obtained my bachelor's in Computer Science, with a second major in Linguistics, from Washington University in St. Louis in 2022.
+I am a Ph.D. student at the [University of Colorado](https://www.colorado.edu), supervised by [Prof. Alexis Palmer](https://alexispalmer.github.io) and [Prof. Mans Hulden](https://verbs.colorado.edu/~mahu0110/), where I study **computational linguistics** and **natural language processing**. My research involves low-resource and endangered languages, generalizability and robustness, and the relationships between linguistics and language technology. I obtained my bachelor's in Computer Science, with a second major in Linguistics, from Washington University in St. Louis in 2022.
 
 I've worked in **software development** as a lead developer at [Magnify Your Voice](https://magnifyyourvoice.com), a two-time localization engineering intern at Apple, and an independent [iOS and macOS developer](https://apps.apple.com/lt/developer/michael-ginn/id1416885467). Right now, I'm working with [xMentium](https://xmentium.com) to explore large language models and domain adaptation for legal texts.
 
