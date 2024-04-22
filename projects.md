@@ -14,10 +14,5 @@ For the [GenBench workshop](https://genbench.org/workshop/) on generalization, I
 
 Currently, I am exploring building large pretrained models for IGT using multilingual corpora such as [IMTVault](https://imtvault.org).
 
-## TaxoMorph
-Morphology in many languages is highly structured, with predictable relationships between morphemes. In TaxoMorph, I explore approaches to exploit knowledge about morphology to achieve better performance across NLP tasks. I have experimented with multi-task training, training data augmentation, and custom loss functions, finding that neurosymbolic loss functions can achieve significant benefits to F1 score and overcome imbalanced training sets.
-
-Currently, I am exploring techniques for data augmentation using morpheme templates to guide the creation of synthetic data.
-
 ## PyFoma
 With my advisor Prof. Mans Hulden, I have contributed to the development of [PyFoma](https://github.com/mhulden/pyfoma), a toolkit for the development of finite-state technology. In particular, I helped refactor the package to use a consistent Python API, deployed the package to package managers such as PyPI and Anaconda, and created features including drawing context-free grammar trees.
