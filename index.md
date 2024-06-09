@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-I am a Ph.D. student at the [University of Colorado](https://www.colorado.edu) in the [LECS Lab](lecs-lab.github.io), supervised by [Prof. Alexis Palmer](https://alexispalmer.github.io) and [Prof. Mans Hulden](https://verbs.colorado.edu/~mahu0110/). I am in the Department of Computer Science and the Institute for Cognitive Science.
+I am a Ph.D. student at the University of Colorado in the [LECS Lab](lecs-lab.github.io), supervised by [Prof. Alexis Palmer](https://alexispalmer.github.io) and [Prof. Mans Hulden](https://verbs.colorado.edu/~mahu0110/). I am in the Department of Computer Science and the Institute for Cognitive Science.
 
 I study **computational linguistics** and **natural language processing**. My research involves low-resource and endangered languages, morphology and tokenization, and the relationships between linguistics and language technology. In particular, I am interested in exploring the ways modern NLP techniques such as large language models (LLMs) can best aid underresourced languages. I obtained my bachelor's in Computer Science, with a second major in Linguistics, from Washington University in St. Louis in 2022.
 
