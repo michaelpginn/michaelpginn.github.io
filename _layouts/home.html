@@ -5,8 +5,8 @@ layout: default
   {% include nav.html%}
 {% endif %}
 
-<div class="mx-auto text-center prose prose-{{site.theme-color}}">
-  <div>
+<div class="mx-auto prose prose-{{site.theme-color}}">
+  <div class="text-center">
     <img class="object-cover mx-auto h-36 w-36 rounded-full" style="box-shadow:  20px 20px 60px #bebebe,
     -20px -20px 60px #ffffff;" src="{{site.baseurl}}/assets/img/{{site.author-image}}"
       alt="author profile image">
@@ -16,7 +16,7 @@ layout: default
   <p class="text-gray-500 pb-4">{{site.author-bio}}</p>
   {% endif %}
 
-  <div class="text-left px-4">
+  <div class="px-4">
     {{content}}
   </div>
 </div>
