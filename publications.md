@@ -4,7 +4,8 @@ title: Publications
 permalink: publications
 ---
 
-- **Michael Ginn**\*, Lindia Tjuatja\*, Taiqi He, Enora Rice, Graham Neubig, Alexis Palmer, Lori Levin. 2023. [GlossLM: Multilingual Pretraining for Low-Resource Interlinear Glossing](https://arxiv.org/abs/2403.06399). *Arxiv Preprint*.
+- **Michael Ginn**, Mans Hulden, and Alexis Palmer. 2024. [Can we teach language models to gloss endangered languages?](https://arxiv.org/abs/2406.18895). *To appear at EMNLP 2024*.
+- **Michael Ginn**\*, Lindia Tjuatja\*, Taiqi He, Enora Rice, Graham Neubig, Alexis Palmer, and Lori Levin. 2023. [GlossLM: A Massively Multilingual Corpus and Pretrained Model for Interlinear Glossed Text](https://arxiv.org/abs/2403.06399). *To appear at EMNLP 2024*.
 - Mans Hulden, **Michael Ginn**, Miika Silfverberg, and Michael Hammond. 2024. [PyFoma: a Python finite-state compiler module](). *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)*.
 - Saliha Muradoğlu, **Michael Ginn**, Miikka Silfverberg, and Mans Hulden. 2024. [Resisting the Lure of the Skyline: Grounding Practices in Active Learning for Morphological Inflection](). *In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)*.
 - **Michael Ginn**, David R. Saavedra-Beltrán, Camilo Robayo, and Alexis Palmer. 2024. [BELT: Building Endangered Language Technology](https://aclanthology.org/2024.teachingnlp-1.15/). *In Proceedings of the Sixth Workshop on Teaching NLP*.
