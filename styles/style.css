@@ -1,0 +1,107 @@
+@import url("nav.css");
+
+:root {
+    --primary: rgb(55, 107, 158);
+    --secondary: #7dd3fc;
+    --border-radius: 8px;
+    --light-bg: rgb(237, 242, 242);
+    --slightly-darker-light-bg: rgb(225, 230, 230);
+    --text: rgb(55, 65, 81);
+    --bg: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #fff;
+        --bg: #000;
+        --light-bg: rgb(20, 25, 25);
+        --slightly-darker-light-bg: rgb(25, 30, 30);
+    }
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+h2 {
+    margin-block-start: 1.5em;
+    margin-block-end: 0.5em;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+li {
+    line-height: 1.4em;
+    /* list-style-type: none; */
+}
+
+li:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.subtitle {
+    margin-block-start: -1em;
+    margin-block-end: 22px;
+}
+
+footer {
+    margin-block-start: 100px;
+    padding-block: 20px;
+    color: #aaa;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 900px;
+    padding-inline: 12px;
+}
+
+#main-photo {
+    width: 30%;
+    float: right;
+    height: auto;
+    margin: 0 0 20px 20px;
+    border-radius: var(--border-radius);
+    box-shadow:
+        0px 2px 4px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* News */
+.news {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.news-item {
+    background-color: var(--light-bg);
+    padding-inline: 20px;
+    padding-block: 12px;
+    border-radius: var(--border-radius);
+}
+.news-item-date {
+    font-size: small;
+    margin-block-start: 8px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    #group-photo {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        width: 100%;
+    }
+}

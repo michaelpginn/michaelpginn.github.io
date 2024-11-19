@@ -1,0 +1,37 @@
+.publications {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.publication a {
+    font-weight: 600;
+    /* font-size: large; */
+}
+
+.publication div {
+    margin-top: 4px;
+    font-size: small;
+}
+
+.publication .publication-venue {
+    font-style: italic;
+    color: #999;
+    font-size: small;
+}
+
+.publication .publication-venue .publication-date {
+    font-style: normal;
+}
+
+.publication .special-note {
+    box-shadow:
+        0px 2px 4px rgba(0, 0, 0, 0.1),
+        0px 1px 2px rgba(0, 0, 0, 0.2); /* Tight shadow */
+    padding-inline: 12px;
+    padding-block: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-block-start: 8px;
+    font-weight: 500;
+}

@@ -1,0 +1,112 @@
+- id: anthology:ginn-etal-2024-glosslm
+  title: "GlossLM: A Massively Multilingual Corpus and Pretrained Model for Interlinear Glossed Text"
+  authors:
+    - Michael Ginn
+    - Lindia Tjuatja
+    - Taiqi He
+    - Enora Rice
+    - Graham Neubig
+    - Alexis Palmer
+    - Lori Levin
+  publisher: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024)"
+  date: "2024-11-01"
+  link: https://aclanthology.org/2024.emnlp-main.683/
+- id: arxiv:2406.18895
+  title: "Can we teach language models to gloss endangered languages?"
+  authors:
+    - Michael Ginn
+    - Mans Hulden
+    - Alexis Palmer
+  publisher: "Findings of the Association for Computational Linguistics: EMNLP 2024"
+  date: "2024-11-01"
+  link: https://aclanthology.org/2024.findings-emnlp.337.pdf
+- id: anthology:hulden-etal-2024-pyfoma
+  title: "PyFoma: a Python finite-state compiler module"
+  authors:
+    - Mans Hulden
+    - Michael Ginn
+    - Miikka Silfverberg
+    - Michael Hammond
+  publisher: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)"
+  date: "2024-08-01"
+  link: https://aclanthology.org/2024.acl-demos.24/
+- id: anthology:2024.teachingnlp-1.15
+  title: "BELT: Building Endangered Language Technology"
+  authors:
+    - Michael Ginn
+    - David Saavedra-Beltrán
+    - Camilo Robayo
+    - Alexis Palmer
+  publisher: Proceedings of the Sixth Workshop on Teaching NLP @ ACL 2024
+  date: "2024-08-01"
+  link: https://aclanthology.org/2024.teachingnlp-1.15/
+  note: Best Paper
+- id: anthology:muradoglu-etal-2024-resisting
+  title: "Resisting the Lure of the Skyline: Grounding Practices in Active Learning for Morphological Inflection"
+  authors:
+    - Saliha Muradoglu
+    - Michael Ginn
+    - Miikka Silfverberg
+    - Mans Hulden
+  publisher: "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)"
+  date: "2024-08-01"
+  link: https://aclanthology.org/2024.acl-short.4/
+- id: anthology:2024.sigmorphon-1.7
+  title: "Decomposing Fusional Morphemes with Vector Embeddings"
+  authors:
+    - Michael Ginn
+    - Alexis Palmer
+  publisher: Proceedings of the 21st SIGMORPHON workshop on Computational Research in Phonetics, Phonology, and Morphology @ NAACL 2024
+  date: "2024-06-01"
+  link: https://aclanthology.org/2024.sigmorphon-1.7/
+- id: anthology:2024.americasnlp-1.19
+  title: "On the Robustness of Neural Models for Full Sentence Transformation"
+  authors:
+    - Michael Ginn
+    - Ali Marashian
+    - Bhargav Shandilya
+    - Claire Post
+    - Enora Rice
+    - Juan Vásquez
+    - Marie McGregor
+    - Matthew Buchholz
+    - Mans Hulden
+    - Alexis Palmer
+  publisher: Proceedings of the 4th Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP 2024) @ NAACL 2024
+  date: "2024-06-01"
+  link: https://aclanthology.org/2024.americasnlp-1.19/
+- id: anthology:2023.genbench-1.7
+  title:
+    Robust Generalization Strategies for Morpheme Glossing in an Endangered Language
+    Documentation Context
+  authors:
+    - Michael Ginn
+    - Alexis Palmer
+  publisher:
+    Proceedings of the 1st GenBench Workshop on (Benchmarking) Generalisation
+    in NLP
+  date: "2023-12-01"
+  link: https://doi.org/gtmsc3
+- id: anthology:2023.sigmorphon-1.20
+  title: Findings of the SIGMORPHON 2023 Shared Task on Interlinear Glossing
+  authors:
+    - Michael Ginn
+    - Sarah Moeller
+    - Alexis Palmer
+    - Anna Stacey
+    - Garrett Nicolai
+    - Mans Hulden
+    - Miikka Silfverberg
+  publisher:
+    Proceedings of the 20th SIGMORPHON workshop on Computational Research
+    in Phonetics, Phonology, and Morphology
+  date: "2023-07-01"
+  link: https://doi.org/gtmsc4
+- id: anthology:ginn-khamov-2023-ginn
+  title: "Ginn-Khamov at SemEval-2023 Task 6, Subtask B: Legal Named Entities Extraction for Heterogenous Documents"
+  authors:
+    - Michael Ginn
+    - Roman Khamov
+  publisher: Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)
+  date: "2023-07-01"
+  link: https://aclanthology.org/2023.semeval-1.57/
