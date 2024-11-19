@@ -12,8 +12,9 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --primary: #5e94c6;
         --text: #fff;
-        --bg: #000;
+        --bg: #121212;
         --light-bg: rgb(20, 25, 25);
         --slightly-darker-light-bg: rgb(25, 30, 30);
     }
