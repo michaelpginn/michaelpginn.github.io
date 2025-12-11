@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Michael Ginn - Projects</title>
+        <title>Michael Ginn - Thoughts</title>
         <!-- <link
             href="http://fonts.googleapis.com/css?family=Open+Sans"
             rel="stylesheet"
             type="text/css"
         /> -->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
         <link href="../styles/style.css" rel="stylesheet" type="text/css" />
         <link
             href="../styles/publications.css"
@@ -24,11 +24,18 @@
                 <!-- <div id="navbar-title-text">LECS Lab</div> -->
             </div>
             <div class="navbar-items">
-                <a href="index.html" class="navbar-item">home</a>
-                <a href="publications.html" class="navbar-item">publications</a>
-                <a href="projects.html" class="navbar-item">projects</a>
-                <a href="thoughts.html" class="navbar-item active">thoughts</a>
-                <a href="assets/cv.pdf" class="navbar-item" target="_blank"
+                <a href="../index.html" class="navbar-item">home</a>
+                <a href="../publications.html" class="navbar-item"
+                    >publications</a
+                >
+                <a href="../projects.html" class="navbar-item">projects</a>
+                <a href="../thoughts.html" class="navbar-item active"
+                    >thoughts</a
+                >
+                <a
+                    href="../assets/cv.pdf"
+                    class="navbar-item"
+                    target="_blank"
                     >cv</a
                 >
             </div>
@@ -39,9 +46,10 @@
             <p>
                 I've trained something like 50,000 small ML models so far in my
                 Ph.D. Often, I'm working at the absolute lowest scale
-                datasets--with as few as 100 examples for a difficult. My first
-                claim is that even in these settings, it is very possible to
-                train a non-random model, and likely even a pretty decent model.
+                datasets&mdash;with as few as 100 examples for a difficult task.
+                My first claim is that even in these settings, it is very
+                possible to train a non-random model, and likely even a pretty
+                decent model.
             </p>
             <p>
                 The first obvious step is to pick a nice strong base
@@ -86,7 +94,7 @@
                 Some architecture and training tricks are easy enough to
                 implement and worth it (tied embedding/unembedding, RoPE, beam
                 search, aggressive gradient clipping) others maybe aren't
-                (teaching forcing). Most of all, keep it simple! Formulate the
+                (teacher forcing). Most of all, keep it simple! Formulate the
                 inputs and outputs well so that the model has to learn as little
                 as possible.
             </p>
