@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Michael Ginn - Projects</title>
+        <!-- <link
+            href="http://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet"
+            type="text/css"
+        /> -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="../styles/publications.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+    </head>
+    <body>
+        <nav class="navbar container">
+            <div class="navbar-title">
+                <!-- <img src="assets/logo.png" id="logo" /> -->
+                <!-- <div id="navbar-title-text">LECS Lab</div> -->
+            </div>
+            <div class="navbar-items">
+                <a href="index.html" class="navbar-item">home</a>
+                <a href="publications.html" class="navbar-item">publications</a>
+                <a href="projects.html" class="navbar-item">projects</a>
+                <a href="thoughts.html" class="navbar-item active">thoughts</a>
+                <a href="assets/cv.pdf" class="navbar-item" target="_blank"
+                    >cv</a
+                >
+            </div>
+        </nav>
+        <main class="container">
+            <a href="../thoughts.html">Back</a>
+            <h3 id="april-8-2025">8 april 2025</h3>
+            <p>
+                The most important thing about llms is that they give something
+                <i>shaped like an answer</i>.
+            </p>
+            <p>
+                <i
+                    >Side note: the terms we ended up using for AI stuff ("LLM",
+                    "ChatGPT") sure are clunky. Every scifi writer who gave
+                    their AIs elegant and meaningful names vastly overestimated
+                    the aesthetics of the kind of guys who ended up developing
+                    AI.
+                </i>
+            </p>
+            <p>
+                The answer-shaped thing doesn't have to actually be the answer,
+                nor does it have to have any real relation to the answer. But as
+                long as you have something that <i>sounds</i> like an answer,
+                now you have a baseline that's clearly better than random. That
+                means you can hill-climb by messing around with how you format
+                the problem and what sort of information you provide, and
+                eventually you'll probably reach something that looks like a
+                reasonable score on your benchmark of choice.
+            </p>
+            <p>
+                Importantly, this holds for virtually any task that you can
+                formulate in language. You can ask an llm to do composition,
+                text editing, coding, question answering, etc...even weird stuff
+                like igt generation. If you don't actually check the quality of
+                the results, then you'd easily conclude you have an omniscient
+                autonomous program. However, if you check the quality of the
+                results, you often find they are actually far worse than
+                standard sota neural models.
+            </p>
+            <p>
+                This is not a criticism of llms, which are being used for a
+                million tasks far from their original purpose. It is, however, a
+                clear risk for how people use llms. Any time a user unknowingly
+                performs a fairly out-of-domain task, they likely receive very
+                low-quality results, but results that are well-formatted and
+                plausible. If users are not clearly aware of what the program is
+                actually doing (and the term "hallucination" probably doesn't
+                help), there is serious risk for catastrophic misinformation.
+            </p>
+            <p>
+                On a positive note, this behavior is also probably why
+                in-context learning works so well. Your goal is to find a
+                structure in <i>P(<b>t</b>)</i> space that maximizes your
+                overall probability, and having examples of structures that are
+                shaped similarly probably helps you find the right answer.
+            </p>
+            <p>mg</p>
+        </main>
+        <!-- <footer class="container">mpg</footer> -->
+    </body>
+</html>

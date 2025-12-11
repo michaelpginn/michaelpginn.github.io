@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Michael Ginn - Projects</title>
+        <!-- <link
+            href="http://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet"
+            type="text/css"
+        /> -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="../styles/publications.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+    </head>
+    <body>
+        <nav class="navbar container">
+            <div class="navbar-title">
+                <!-- <img src="assets/logo.png" id="logo" /> -->
+                <!-- <div id="navbar-title-text">LECS Lab</div> -->
+            </div>
+            <div class="navbar-items">
+                <a href="index.html" class="navbar-item">home</a>
+                <a href="publications.html" class="navbar-item">publications</a>
+                <a href="projects.html" class="navbar-item">projects</a>
+                <a href="thoughts.html" class="navbar-item active">thoughts</a>
+                <a href="assets/cv.pdf" class="navbar-item" target="_blank"
+                    >cv</a
+                >
+            </div>
+        </nav>
+        <main class="container">
+            <a href="../thoughts.html">Back</a>
+            <h3>11 december 2025 - how to train your low-resource model</h3>
+            <p>
+                I've trained something like 50,000 small ML models so far in my
+                Ph.D. Often, I'm working at the absolute lowest scale
+                datasets--with as few as 100 examples for a difficult. My first
+                claim is that even in these settings, it is very possible to
+                train a non-random model, and likely even a pretty decent model.
+            </p>
+            <p>
+                The first obvious step is to pick a nice strong base
+                model--there's basically no reason to ever start from nothing. I
+                am fond of the now-unpopular encoder-decoder transformers (e.g.
+                T5) which have a really nice theoretical interpretation. If your
+                language has an odd script, make sure your model has some
+                exposure, or just Romanize.
+            </p>
+            <p>
+                I tend to find that synthetic data is not worth it for seq2seq
+                tasks (and possibly not classification tasks either). In many of
+                the experiments I've seen, the same improvement could have been
+                achieved by training the model better. This fits with the theory
+                that augmentation is
+                <a href="https://jmlr.org/papers/v25/22-1312.html"
+                    >regularization</a
+                >, but it's also easy to drastically shift your distribution.
+            </p>
+            <p>
+                Hyperparameters matter far, far more in the very low-resource
+                regime. While a million-example dataset will probably work
+                reasonably well for a lot of different settings, this is not
+                true at 100 examples. If you have the compute, run massive
+                sweeps unless you have pretty good intuitions. Definitely
+                optimize learning rate, batch size (probably going to be large
+                relative to the training set), model width and depth, and some
+                regularization hparams (dropout, weight decay). Low-capacity
+                models (small embedding, minimal layers and attention heads,
+                strong regularization) will be harder to train but should
+                generalize well.
+            </p>
+            <p>
+                Don't trust noisy metrics. If you plot the metric of interest
+                (accuracy, BLEU, etc) alongside loss, you will often see that
+                while loss improves smoothly, the target metric wildly jumps.
+                Caution against over-interpreting small metric differences,
+                since these could just be noise. Use multiple runs,
+                cross-validate, etc to reduce variance.
+            </p>
+            <p>
+                Some architecture and training tricks are easy enough to
+                implement and worth it (tied embedding/unembedding, RoPE, beam
+                search, aggressive gradient clipping) others maybe aren't
+                (teaching forcing). Most of all, keep it simple! Formulate the
+                inputs and outputs well so that the model has to learn as little
+                as possible.
+            </p>
+            <p>mg</p>
+        </main>
+        <!-- <footer class="container">mpg</footer> -->
+    </body>
+</html>

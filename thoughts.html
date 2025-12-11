@@ -31,270 +31,32 @@
         </nav>
         <main class="container">
             <h1>thoughts</h1>
-            <h3 id="april-27-2025-regarding-cheating-in-the-age-of-ai">
-                27 april 2025 - regarding cheating in the age of AI
-                <a class="anchor-link" href="#april-27-2025-regarding-cheating-in-the-age-of-ai">#</a>
-            </h3>
-            <p>
-                There's ongoing debate within cs pedagogy about the correct
-                response to AI-based assignment completion, which would
-                traditionally be considered "plagiarism."
-            </p>
-            <p>
-                On one hand, a majority (perhaps) of students are now producing
-                all of their code via an LLM app, which would certainly fall
-                under the restricions on the use of external resources.
-            </p>
-            <p>
-                The said, LLMs are here to stay, and only getting harder to
-                detect through any objective measure.
-            </p>
-            <p>
-                <i
-                    >(My school uses "interview grading", where we ask students
-                    random questions about their code in hopes of catching a
-                    cheater. This has roughly a 0% success rate.)</i
-                >
-            </p>
-            <p>
-                My take is that we already have an analagous pedagogical model:
-                mathematics education.
-            </p>
-            <p>
-                Math ed, like CS ed, largely relies on 1) graded exercises and
-                2) synchronous examination. Currently, a key difference is that
-                CS heavily upweights the graded exercises (i.e. "homework").
-                Meanwhile, mathematics upweights examinations, because for the
-                highest level of math that most students will ever take, there
-                are online tools that can perfectly solve any problem you can
-                assign.
-            </p>
-            <p>
-                I think CS ed is now in a similar spot thanks to ChatGPT. Chat
-                (as affectionately it is known) can whiz through any CS
-                assignment for like 90% of classes. After all, that's
-                essentially the
-                <i>main thing it was traind to do (w.r.t. coding).</i> Think
-                about the format of a coding instruct prompt--"Write a function
-                that..."--that is essentially the same as a homework prompt.
-                <b
-                    >LLMs are not just good at homework, they are quite
-                    literally trained to be homework machines.</b
-                >
-            </p>
-            <p>
-                Anyways, the obvious solution is to reweigh how we do grading,
-                and massively upweight exams, and make it clear to students that
-                they don't have to work hard on their homeworks, but it will
-                cost them come exam.
-            </p>
-            <p>mg</p>
-            <h3 id="april-8-2025">
-                8 april 2025
-                <a class="anchor-link" href="#april-8-2025">#</a>
-            </h3>
-            <p>
-                The most important thing about llms is that they give something
-                <i>shaped like an answer</i>.
-            </p>
-            <p>
-                <i
-                    >Side note: the terms we ended up using for AI stuff ("LLM",
-                    "ChatGPT") sure are clunky. Every scifi writer who gave
-                    their AIs elegant and meaningful names vastly overestimated
-                    the aesthetics of the kind of guys who ended up developing
-                    AI.
-                </i>
-            </p>
-            <p>
-                The answer-shaped thing doesn't have to actually be the answer,
-                nor does it have to have any real relation to the answer. But as
-                long as you have something that <i>sounds</i> like an answer,
-                now you have a baseline that's clearly better than random. That
-                means you can hill-climb by messing around with how you format
-                the problem and what sort of information you provide, and
-                eventually you'll probably reach something that looks like a
-                reasonable score on your benchmark of choice.
-            </p>
-            <p>
-                Importantly, this holds for virtually any task that you can
-                formulate in language. You can ask an llm to do composition,
-                text editing, coding, question answering, etc...even weird stuff
-                like igt generation. If you don't actually check the quality of
-                the results, then you'd easily conclude you have an omniscient
-                autonomous program. However, if you check the quality of the
-                results, you often find they are actually far worse than
-                standard sota neural models.
-            </p>
-            <p>
-                This is not a criticism of llms, which are being used for a
-                million tasks far from their original purpose. It is, however, a
-                clear risk for how people use llms. Any time a user unknowingly
-                performs a fairly out-of-domain task, they likely receive very
-                low-quality results, but results that are well-formatted and
-                plausible. If users are not clearly aware of what the program is
-                actually doing (and the term "hallucination" probably doesn't
-                help), there is serious risk for catastrophic misinformation.
-            </p>
-            <p>
-                On a positive note, this behavior is also probably why
-                in-context learning works so well. Your goal is to find a
-                structure in <i>P(<b>t</b>)</i> space that maximizes your
-                overall probability, and having examples of structures that are
-                shaped similarly probably helps you find the right answer.
-            </p>
-            <p>mg</p>
-            <h3 id="march-13-2025">
-                13 march 2025
-                <a class="anchor-link" href="#march-13-2025">#</a>
-            </h3>
-            <p>
-                The field of NLP has been in a bit of a crisis since the arrival
-                of LLMs. Unofficially, the primary goal of the field has always
-                been to produce a system (or systems, plural) that can
-                manipulate, understand, and generate text as effectively as a
-                human (though not necessarily in the same way). My claim is that
-                this goal has been effectively reached (since around GPT-3).
-                Certainly, if you presented someone with no knowledge of LLMs a
-                ChatGPT-generated text, and told them it was produced by a
-                human, there is very little chance they would suspect anything.
-            </p>
-            <p>
-                Understandably, this has caused a bit of discord among NLP
-                researchers. No scientist actually legitimately hopes the
-                central mysteries of their field will be solved, as they will
-                then be out of a job. For NLP, this has caused a majority of
-                researchers to pivot to LLMs, and a minority to write
-                highly-critical position papers. This, to me, does not seem like
-                a particularly sustainable arrangement.
-            </p>
-            <p>
-                In fact, the hottest thing in LLM research at the
-                moment&mdash;that is, "agentic behavior" and LLM reasoning
-                [1]&mdash; has pretty much breached containment and escaped from
-                NLP, instead returning to ancient topics in AI like search and
-                logic. I think this is good evidence for my claim above,
-                suggesting that we have modeled language so well that the only
-                thing left to model is the actual thought that produces
-                language! If you are a linguist who strongly believes that
-                language is a distinct and self-contained psychological process,
-                this should be great news for you.
-            </p>
-            <p>
-                Okay, back to NLP. NLP is a bit of a weird field in that it
-                simultaneously studies <i>methods</i> for working with natural
-                data but also the <i>data itself</i>. This leads to papers such
-                as the original
-                <a href="https://arxiv.org/abs/1301.3781">word2vec paper</a>
-                which both proposes a new method for various NLP tasks (static
-                word embeddings) but also uses said method to make the
-                observation that words with analogical relationships form
-                predictable structure when embedded in these vector spaces.
-                Likewise, NLP conferences tend to be composed of a bimodal
-                distribution of people:
-            </p>
-            <ol>
+            <ul>
                 <li>
-                    Engineering-minded folks who are interested in optimizing
-                    performance on valuable tasks
+                    <a href="thoughts/11_december_2025.html"
+                        >how to train your low-resource model</a
+                    >
                 </li>
                 <li>
-                    Science-minded people who are interested in understanding
-                    how and why certain methods work
+                    <a href="thoughts/27_april_2025.html">as a frustrated ta</a>
                 </li>
-            </ol>
-
-            <p>
-                So from the basis of my claim that LLMs effectively solve NLP,
-                what are my predictions? I suspect that continuing to try and
-                hill-climb with more and more accurate models is likely a losing
-                battle, or at least an unexciting one. There will certainly
-                always be room to optimize, but the improvements will only get
-                smaller, and the focus will largely be on improving the speed,
-                efficiency, and portability of models.
-            </p>
-            <p>
-                On the other hand, I think there are a huge amount of potential
-                for exploring how and why these models work, and using them as
-                <i>models</i> to understand language. My advisor liked to rant
-                that we now have complete models of language that are small
-                enough to run on a laptop, and yet people who study language
-                refuse to use them.
-            </p>
-            <p>
-                Perhaps moving in this direction would mean less funding from
-                industry, and less hype from the media. On the other hand, it
-                feels like far more interesting and fundamental science.
-            </p>
-            <p>
-                Of course, I may be as wrong as everyone who declared that
-                physics was solved prior to quantum.
-            </p>
-            <p>mg</p>
-            <p>
-                <small
-                    >[1] I realize these are distinct topics, but they kind of
-                    have the same vibe.</small
-                >
-            </p>
-            <h3 id="march-7-2025">
-                7 march 2025
-                <a class="anchor-link" href="#march-7-2025">#</a>
-            </h3>
-            <p>
-                I suspect that studying a language is a bit like studying a
-                snowflake. Even at a distance, you can see the structure and
-                intentionality, and as you get closer and pull out a magnifying
-                glass you can see more tiny, beautiful details. These details
-                almost seem to go infinitely smaller—a fractal.
-            </p>
-            <p>
-                Now the expert, you can fill a book with your knowledge about
-                the snowflake. Turns out, others have written their own books on
-                their own snowflakes, and browsing through them you can find
-                patterns that look the same as yours. You might even devote your
-                life to reading these books and sorting the snowflakes into
-                piles based on their patterns, so you can now understand
-                (roughly) all of the snowflakes in the world. However, it's a
-                bit uncertain whether you've really learned much about
-                snowflakes at all!
-            </p>
-            <p>
-                This is unashamedly a bit of a rant about the current research
-                agenda of (formal) linguistics. The vast majority of
-                garden-variety generative grammar work is endlessly looking
-                closer at snowflakes, hoping that maybe if we look close enough
-                we will suddenly see what snowflakes are. Meanwhile, typology is
-                going around recording data on various snowflakes and making up
-                categorizations, in hopes that maybe a big enough sample will
-                reveal the truth.
-            </p>
-            <p>
-                The reason we understand what snowflakes are is because we
-                understand how they are formed. It seems to me like that must be
-                how we should understand language. We would need to understand
-                how it is produced and processed in the brain, how it arises
-                within a population, how it spreads and changes, what laws of
-                information theory govern it, and how variation occurs.
-            </p>
-            <p>
-                Not to stretch the metaphor too far, but I do suspect it is the
-                case that language has a fractal attractor. That is, the
-                formation of a language instance is so highly sensitive to some
-                random starting condition (whatever that means in the context of
-                a population) that it is impossible to predict the full extent
-                of its rules (which have infinite complexity, limited only by
-                hardware restrictions).
-            </p>
-            <p>
-                <i
-                    >Worth noting, this really only applies to
-                    morphology/syntax/semantics/and up. Phonology (❤️) is
-                    obviously correct and an obvious universal thing with good
-                    biological motivation.
-                </i>
-            </p>
-            <p>mg</p>
+                <li>
+                    <a href="thoughts/8_april_2025.html"
+                        >answer-shaped things</a
+                    >
+                </li>
+                <li>
+                    <a href="thoughts/13_march_2025.html"
+                        >as someone who started a phd right when LLMs popped
+                        off</a
+                    >
+                </li>
+                <li>
+                    <a href="thoughts/7_march_2025.html"
+                        >snowflakes and language</a
+                    >
+                </li>
+            </ul>
         </main>
         <!-- <footer class="container">mpg</footer> -->
     </body>
