@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Michael Ginn - Projects</title>
+        <!-- <link
+            href="http://fonts.googleapis.com/css?family=Open+Sans"
+            rel="stylesheet"
+            type="text/css"
+        /> -->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="../styles/style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="../styles/publications.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+    </head>
+    <body>
+        <nav class="navbar container">
+            <div class="navbar-title">
+                <!-- <img src="assets/logo.png" id="logo" /> -->
+                <!-- <div id="navbar-title-text">LECS Lab</div> -->
+            </div>
+            <div class="navbar-items">
+                <a href="index.html" class="navbar-item">home</a>
+                <a href="publications.html" class="navbar-item">publications</a>
+                <a href="projects.html" class="navbar-item">projects</a>
+                <a href="thoughts.html" class="navbar-item active">thoughts</a>
+                <a href="assets/cv.pdf" class="navbar-item" target="_blank"
+                    >cv</a
+                >
+            </div>
+        </nav>
+        <main class="container">
+            <a href="../thoughts.html">Back</a>
+            <h3>9 january 2026 - agents are the wrong idiom</h3>
+            <p>
+                I don't think "agentic AI" is the right approach for a bunch of
+                reasons [1].
+            </p>
+            <p>
+                The most obvious and popular reason is
+                <b>maintainability over time.</b> As the generated code grows
+                larger and evolves over time, your understanding, and ability to
+                fix issues, drop precipitously. Eventually, you have a mess of
+                incomprehensible code that cannot be resolved by any human dev,
+                and might be too big for your own agent to fix (and could
+                literally exceed the context window). I'm not sure that throwing
+                ever-increasing compute at the problem is a practical solution,
+                since you'd almost certainly need to continue to scale compute
+                exponentially. The normal response is "you should be reviewing
+                all the code it produces," but as anyone whose ever done code
+                review knows, it is nearly impossible to gain a perfect
+                understanding of a sizable amount of code that you did not
+                write. Furthermore, there is knowledge gained in the process of
+                writing a large amount of code, that isn't necessarily
+                communicated in a PR.
+            </p>
+            <p>
+                Another big issue is <b>internal software</b>, which the LLM is
+                not trained on. RAG is clearly not sufficient, since there is a
+                searching bottleneck and a "putting together totally novel
+                systems" bottleneck. Internal frameworks aren't necessarily
+                similar to Internet code; they often have unique syntax, idioms,
+                and patterns. Again, you can *maybe* fix this by continuing to
+                scale compute, but my gut sense is it doesn't make sense
+                economically after a certain point.
+            </p>
+            <p>
+                There's the problem of underspecified intent, where a developer
+                may <i>think</i> they can fully describe what they want, but in
+                fact would have discovered what they actually want through the
+                process of writing code themself. LLMs don't tend to have these
+                "aha" moments; they don't push back against your wishes, nor do
+                they necessarily think about the big picture. Unless we
+                radically change how these models are post-trained, I don't see
+                a clear solution.
+            </p>
+            <p>
+                There is also definitely a tension between code quality and code
+                correctness, and the current RL paradigm seems to push models to
+                write highly <i>correct</i> code (e.g. through extensive error
+                checks) but not necessarily <i>high-quality</i> code.
+                Presumably, this is an effect of rewards based on correctness,
+                which is easy to verify, whereas quality is much more subjective
+                and fuzzy. Now, the Twitter startup guys would argue that code
+                quality doesn't matter, but these principles are rarely
+                unmotivated. Generally, they are inspired by maintainability,
+                readability (see point 1), preventing logic errors, and
+                future-proofing.
+            </p>
+            <p>
+                Finally, my biggest reason is that
+                <b>writing code was never the difficult part.</b> Professional
+                devs aren't limited by how fast they can type code, the vast
+                majority of the job is spent debugging, agreeing on specs,
+                communicating, etc. I had plenty of days working at Apple where
+                I'd write little to no lines of code, because my effort was
+                spent otherwise. This is why I'm not surprised agent coding
+                tools are so popular amongst hobbyists, where going from zero to
+                lots of code is critical.
+            </p>
+            <p>
+                With that in mind, there are plenty of cases where agents make
+                sense. For hobbyists, for personal projects, for basic web dev,
+                little tools, and easily-verifiable code, it makes perfect
+                sense. But for large-scale enterprise development, I am not
+                convinced these problems are solvable with finite resources.
+            </p>
+            <p>
+                So what should we do instead? My favorite way to use AI is as a
+                hyper-intelligent debugger. You can point it at a bug, and
+                quickly get a decent guess at what the issue is. This can then
+                be easily verified and the cost of an incorrect guess is zero.
+                You can use current agents like this, but I would love to see an
+                AI tool designed specifically for debugging. Imagine a passive
+                agent which cosntantly checked new code for semantic errors,
+                footguns, and subtle bugs. Sort of like Copilot for PRs, but
+                integrated way earlier into the development code. The AI
+                debugger then does not increase cognitive load while decreasing
+                bugs, enabling devs to do the fun part&mdash;developing new
+                features.
+            </p>
+            <p>mg</p>
+            <p>
+                <small>[1] Of course, I may eat my words at some point.</small>
+            </p>
+        </main>
+        <!-- <footer class="container">mpg</footer> -->
+    </body>
+</html>
