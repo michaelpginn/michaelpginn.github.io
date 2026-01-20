@@ -1,3 +1,43 @@
+- id: fsts
+  title: "Neural Induction of Finite-State Transducers"
+  authors:
+    - Michael Ginn
+    - Alexis Palmer
+    - Mans Hulden
+  publisher: "Preprint"
+  date: "2026-01-01"
+  link: https://arxiv.org/abs/2601.10918
+- id: polygloss
+  title: "Massively Multilingual Joint Segmentation and Glossing"
+  authors:
+    - Michael Ginn
+    - Lindia Tjuatja
+    - Enora Rice
+    - Ali Marashian
+    - Maria Valentini
+    - Jasmine Xu
+    - Graham Neubig
+    - Alexis Palmer
+  publisher: "Preprint"
+  date: "2026-01-01"
+  link: https://arxiv.org/abs/2601.10925
+- id: augmentation
+  title: "Is linguistically-motivated data augmentation worth it?"
+  authors:
+    - Ray Groshan
+    - Michael Ginn
+    - Alexis Palmer
+  publisher: "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics"
+  date: "2025-07-01"
+  link: https://aclanthology.org/2025.acl-long.1307/
+- id: deppars
+  title: "LLM Dependency Parsing with In-Context Rules"
+  authors:
+    - Michael Ginn
+    - Alexis Palmer
+  publisher: "Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling @ ACL 2025"
+  date: "2025-07-01"
+  link: https://aclanthology.org/2025.xllm-1.17/
 - id: anthology:ginn-etal-2024-glosslm
   title: "GlossLM: A Massively Multilingual Corpus and Pretrained Model for Interlinear Glossed Text"
   authors:
