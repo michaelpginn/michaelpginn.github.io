@@ -17,7 +17,7 @@
             <div class="navbar-items">
                 <a href="index.html" class="navbar-item active">home</a>
                 <a href="publications.html" class="navbar-item">publications</a>
-                <a href="projects.html" class="navbar-item">projects</a>
+                <!--<a href="projects.html" class="navbar-item">projects</a>-->
                 <a href="thoughts.html" class="navbar-item">thoughts</a>
                 <a href="assets/cv.pdf" class="navbar-item" target="_blank"
                     >cv</a
@@ -43,15 +43,80 @@
                     >Prof. Mans Hulden</a
                 >.
             </p>
-            <h2>My Research Journey</h2>
+            <h2>My Research</h2>
             <p>
-                I started my Ph.D. with a software engineering background, an
-                interest in language (and especially rare languages), and very
-                little understanding of what machine learning research actually
-                entailed. I've ended up primarily working on NLP for endangered
-                languages/rare languages, and I'm grateful for several reasons.
+                My primary research goal is to apply, evaluate, and improve
+                cutting edge machine learning methods for
+                <b>multilingual and low-resource contexts</b> to enable
+                high-quality language technology for all languages. I've trained
+                hundreds of thousands of small models and several large
+                multilingual models, and I've done research on topics like
+                <a href="https://aclanthology.org/2023.genbench-1.7/"
+                    >out-of-domain generalization</a
+                >,
+                <a href="https://aclanthology.org/2024.sigmorphon-1.7/"
+                    >static embeddings</a
+                >, and
+                <a href="https://aclanthology.org/2025.acl-long.1307/"
+                    >data augmentation/synthetic data</a
+                >. In particular, I've worked in the following areas:
             </p>
+            <h3>LLMs for Language Documentation</h3>
             <p>
+                Documenting endangered languages is a critical&mdash;but very
+                time-consuming&mdash;goal for revitalization projects, and a
+                ripe area for automated assistance. Motivated by the
+                <a
+                    href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+                    >Bitter Lesson</a
+                >, we trained a
+                <a href="https://aclanthology.org/2024.emnlp-main.683/"
+                    >multilingual glossing model</a
+                >
+                on 500k sentences and 2k languages that set a new SOTA. However,
+                <a href="https://aclanthology.org/2025.emnlp-main.568/"
+                    >user studies</a
+                >
+                revealed real-world challenges for using our model, which we
+                addressed with the improved
+                <a href="https://arxiv.org/abs/2601.10925">PolyGloss model</a>.
+                I've also studied documentation via
+                <a href="https://aclanthology.org/2024.findings-emnlp.337.pdf"
+                    >in-context learning and retrieval</a
+                >, serving as an early study on LLM's abilities to work with
+                with rare languages.
+            </p>
+            <h3>Finite-State Automata</h3>
+            <p>
+                Automata and transducers are elegant models for many phenomena,
+                particularly morphological processes. I am a maintainer for the
+                <a href="https://github.com/mhulden/pyfoma">PyFoma library</a>,
+                a leading package for automaton manipulation. I also developed a
+                method for
+                <a href="https://arxiv.org/abs/2601.10918"
+                    >converting RNNs into transducers</a
+                >
+                that beats classic algorithms by a massive margin and often
+                matches hand-crafted transducers. Currently, I'm studying
+                whether agentic models can create accurate transducers through a
+                test-and-refine loop.
+            </p>
+            <h3>Reinforcement Learning for Linguistic Tasks</h3>
+            <p>
+                I'm interested in whether RL can be used for linguistic tasks
+                with insufficient data for supervised training. I conducted a
+                small pilot study on our
+                <a href="https://arxiv.org/abs/2601.10925">PolyGloss model</a>
+                that used GRPO to improve morpheme and gloss alignment.
+                Currently, I'm researching whether
+                <a href="https://github.com/michaelpginn/rl-translation-cycles"
+                    >translation round-trip consistency</a
+                >
+                can be an effective reward signal to improve translation without
+                any parallel data.
+            </p>
+
+            <!--<p>
                 <b>First</b>, it is an area where I truly believe there is some
                 opportunity to do some good in the world. Of course, we have to
                 be careful, since NLP research for language revitalization
@@ -64,8 +129,8 @@
                 usable, and open-source techniques that work for any language,
                 we at least give speakers of endangered language tools they can
                 use in pursuit of revitalization.
-            </p>
-            <p>
+            </p>-->
+            <!--<p>
                 <b>Second</b>, as someone who did not have any ML experience
                 prior to my program, it has been an area where I feel I can make
                 real impact, both in fundamental and applied problems. There is
@@ -136,8 +201,9 @@
             <ul>
                 <li>Log everything, even when you don't think you'll need it</li>
                 <li>Be proactive about organizing experiments</li>
+                <li></li>
             </ul>
-            </p>
+            </p>-->
         </main>
         <footer class="container">
             © Michael Ginn. Contact:
