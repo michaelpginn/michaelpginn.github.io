@@ -4,9 +4,9 @@
     - Michael Ginn
     - Alexis Palmer
     - Mans Hulden
-  publisher: "Preprint"
-  date: "2026-01-01"
-  link: https://arxiv.org/abs/2601.10918
+  publisher: "Findings of the Association for Computational Linguistics: ACL 2026"
+  date: "2026-08-01"
+  link: https://aclanthology.org/2026.findings-acl.1411/
 - id: polygloss
   title: "Massively Multilingual Joint Segmentation and Glossing"
   authors:
@@ -18,9 +18,27 @@
     - Jasmine Xu
     - Graham Neubig
     - Alexis Palmer
-  publisher: "Preprint"
-  date: "2026-01-01"
-  link: https://arxiv.org/abs/2601.10925
+  publisher: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics"
+  date: "2026-08-01"
+  link: https://aclanthology.org/2026.acl-long.1657/
+  note: Outstanding Paper
+- id: dialog_sim
+  title: "A First Step towards Dialog Simulation with Grounded Dialog Graphs"
+  authors:
+    - Michael Ginn
+    - Matt Pauk
+    - Tava Reese
+    - Sameer Gupta
+    - Giuseppe Castellucci
+    - Kevin Small
+    - Alessandro Moschitti
+    - Derek Palmer
+    - Martha Palmer
+    - Alexis Palmer
+    - Maria Leonor Pacheco
+  publisher: "Proceedings of the 2nd Joint Workshop on Computational Approaches to Discourse, Context and Document-Level Inferences and Computational Models of Reference, Anaphora and Coreference (CODI-CRAC 2026)"
+  date: "2026-08-01"
+  link: https://aclanthology.org/2026.codi-1.11/
 - id: augmentation
   title: "Is linguistically-motivated data augmentation worth it?"
   authors:
