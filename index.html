@@ -1,6 +1,15 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QKQ7S8CNH"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-7QKQ7S8CNH');
+        </script>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Michael Ginn - Home</title>
@@ -30,11 +39,11 @@
 
             <img
                 id="main-photo"
-                src="assets/IMG_1343.jpeg"
-                alt="Headshot of me"
+                src="assets/cover.jpeg"
+                alt="Photo of me giving the PolyGloss talk"
             />
             <p>
-                I'm a fifth-year Ph.D. student at the University of Colorado
+                I'm a fifth-year Ph.D. candidate at the University of Colorado
                 studying natural language processing, machine learning, and
                 occasionally linguistics, supervised by
                 <a href="https://alexispalmer.github.io">Prof. Alexis Palmer</a>
@@ -45,10 +54,22 @@
             </p>
             <h2>My Research</h2>
             <p>
-                My primary research goal is to apply, evaluate, and improve
-                cutting edge machine learning methods for
-                <b>multilingual and low-resource contexts</b> to enable
-                high-quality language technology for all languages. I've trained
+                I am broadly interested in multilinguality in language models,
+                low-resource settings, synthetic data, reinforcement learning,
+                and self-distillation. I have done a lot of research involving
+                training multilingual models for endangered language
+                documentation. These include
+                <a href="https://aclanthology.org/2024.emnlp-main.683/"
+                    >GlossLM</a
+                >
+                in 2024 and
+                <a href="https://aclanthology.org/2026.acl-long.1657/"
+                    >PolyGloss</a
+                >
+                in 2026, the latter winning an <b>Outstanding Paper</b> award at
+                ACL.
+
+                <!--I've trained
                 hundreds of thousands of small models and several large
                 multilingual models, and I've done research on topics like
                 <a href="https://aclanthology.org/2023.genbench-1.7/"
@@ -59,11 +80,46 @@
                 >, and
                 <a href="https://aclanthology.org/2025.acl-long.1307/"
                     >data augmentation/synthetic data</a
-                >. In particular, I've worked in the following areas:
+                >. In particular, I've worked in the following areas:-->
             </p>
-            <h3>LLMs for Language Documentation</h3>
             <p>
-                Documenting endangered languages is a critical&mdash;but very
+                I have interned a number of times at <b>Apple</b> in ML
+                engineering roles, most recently training a next-edit prediction
+                model for coding entirely on synthetic data. Right now, I'm an
+                Applied Science Intern at <b>Amazon AWS AI</b>, where I'm
+                studying crosslingual self-distillation in vision-language
+                models.
+            </p>
+            <p>
+                Some big questions I'm thinking about right now:
+                <ul>
+                <li>
+                    <i
+                        >How can we make models as multilingual as possible
+                        (i.e. equally capable in a huge number of languages)
+                        while retaining language-specific information and maximal capabilities?</i
+                    >
+                </li>
+                <li>
+                    <i
+                        >How are languages, particularly low-resource languages, represented across domains and tasks in a language model? Are there specific characteristics we can use to predict and correct crosslingual discrepencies?</i
+                    >
+                </li>
+                <li>
+                    <i
+                        >Is true continual learning (i.e. both knowledge updates and increasing intelligence) possible with the current language modeling paradigm? One possibility is self-distillation methods, but are these methods really capable of meaningful and stable improvements?</i
+                    >
+                </li>
+                <li>
+                    <i
+                        >How and when is synthetic data (particularly that created without use of a stronger teacher) effective? Can we simulate data in a way that adds new information to learn from, or is there a fundamental limitation?</i
+                    >
+                </li>
+                </ul>
+            </p>
+            <!--<h3>LLMs for Language Documentation</h3>-->
+            <!--<p>-->
+            <!--Documenting endangered languages is a critical&mdash;but very
                 time-consuming&mdash;goal for revitalization projects, and a
                 ripe area for automated assistance. Motivated by the
                 <a
@@ -114,7 +170,7 @@
                 >
                 can be an effective reward signal to improve translation without
                 any parallel data.
-            </p>
+            </p>-->
 
             <!--<p>
                 <b>First</b>, it is an area where I truly believe there is some
